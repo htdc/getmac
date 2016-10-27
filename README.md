@@ -1,6 +1,6 @@
 <!-- TITLE/ -->
 
-<h1>getmac</h1>
+<h1>getmacaddress</h1>
 
 <!-- /TITLE -->
 
@@ -8,8 +8,8 @@
 <!-- BADGES/ -->
 
 <span class="badge-travisci"><a href="http://travis-ci.org/bevry/getmac" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/bevry/getmac/master.svg" alt="Travis CI Build Status" /></a></span>
-<span class="badge-npmversion"><a href="https://npmjs.org/package/getmac" title="View this project on NPM"><img src="https://img.shields.io/npm/v/getmac.svg" alt="NPM version" /></a></span>
-<span class="badge-npmdownloads"><a href="https://npmjs.org/package/getmac" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/getmac.svg" alt="NPM downloads" /></a></span>
+<span class="badge-npmversion"><a href="https://npmjs.org/package/getmacaddress" title="View this project on NPM"><img src="https://img.shields.io/npm/v/getmacaddress.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/getmacaddress" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/getmacaddress.svg" alt="NPM downloads" /></a></span>
 <span class="badge-daviddm"><a href="https://david-dm.org/bevry/getmac" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/bevry/getmac.svg" alt="Dependency Status" /></a></span>
 <span class="badge-daviddmdev"><a href="https://david-dm.org/bevry/getmac#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/bevry/getmac.svg" alt="Dev Dependency Status" /></a></span>
 <br class="badge-separator" />
@@ -36,26 +36,26 @@ Get the mac address of the current machine you are on
 <h2>Install</h2>
 
 <a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>NPM</h3></a><ul>
-<li>Install: <code>npm install --save getmac</code></li>
+<li>Install: <code>npm install --save getmacaddress</code></li>
 <li>Executable: <code>getmac-node</code></li>
-<li>Module: <code>require('getmac')</code></li></ul>
+<li>Module: <code>require('getmacaddress')</code></li></ul>
 
 <a href="http://browserify.org" title="Browserify lets you require('modules') in the browser by bundling up all of your dependencies"><h3>Browserify</h3></a><ul>
-<li>Install: <code>npm install --save getmac</code></li>
-<li>Module: <code>require('getmac')</code></li>
-<li>CDN URL: <code>//wzrd.in/bundle/getmac@1.2.1</code></li></ul>
+<li>Install: <code>npm install --save getmacaddress</code></li>
+<li>Module: <code>require('getmacaddress')</code></li>
+<li>CDN URL: <code>//wzrd.in/bundle/getmacaddress@1.2.2</code></li></ul>
 
 <a href="http://enderjs.com" title="Ender is a full featured package manager for your browser"><h3>Ender</h3></a><ul>
-<li>Install: <code>ender add getmac</code></li>
-<li>Module: <code>require('getmac')</code></li></ul>
+<li>Install: <code>ender add getmacaddress</code></li>
+<li>Module: <code>require('getmacaddress')</code></li></ul>
 
 <h3><a href="https://github.com/bevry/editions" title="Editions are the best way to produce and consume packages you care about.">Editions</a></h3>
 
 <p>This package is published with the following editions:</p>
 
-<ul><li><code>getmac/src/lib/getmac.coffee</code> is Source + CoffeeScript + <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a></li>
-<li><code>getmac</code> aliases <code>getmac/es5/lib/getmac.js</code></li>
-<li><code>getmac/es5/lib/getmac.js</code> is CoffeeScript Compiled JavaScript + ES5 + <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a></li></ul>
+<ul><li><code>getmacaddress/src/lib/getmacaddress.coffee</code> is Source + CoffeeScript + <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a></li>
+<li><code>getmacaddress</code> aliases <code>getmacaddress/es5/lib/getmacaddress.js</code></li>
+<li><code>getmacaddress/es5/lib/getmacaddress.js</code> is CoffeeScript Compiled JavaScript + ES5 + <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a></li></ul>
 
 <!-- /INSTALL -->
 
@@ -113,7 +113,7 @@ else {
 
 These amazing people are maintaining this project:
 
-<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/getmac/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/getmac">view contributions</a></li></ul>
+<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/getmac/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/getmac">view contributions</a></li></ul>
 
 <h3>Sponsors</h3>
 
@@ -130,8 +130,9 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/getmac/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/getmac">view contributions</a></li>
-<li><a href="https://github.com/StephenBrown2">Stephen Brown II</a> — <a href="https://github.com/bevry/getmac/commits?author=StephenBrown2" title="View the GitHub contributions of Stephen Brown II on repository bevry/getmac">view contributions</a></li></ul>
+<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/getmac/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/getmac">view contributions</a></li>
+<li><a href="https://github.com/StephenBrown2">Stephen Brown II</a> — <a href="https://github.com/bevry/getmac/commits?author=StephenBrown2" title="View the GitHub contributions of Stephen Brown II on repository bevry/getmac">view contributions</a></li>
+<li><a href="https://github.com/tedshroyer">ted shroyer</a> — <a href="https://github.com/bevry/getmac/commits?author=tedshroyer" title="View the GitHub contributions of ted shroyer on repository bevry/getmac">view contributions</a></li></ul>
 
 <a href="https://github.com/bevry/getmac/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 

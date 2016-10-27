@@ -1,7 +1,7 @@
 # Import
 joe = require('joe')
 {expect} = require('chai')
-{getMac,isMac,macRegex} = require('../lib/getmac')
+{getMac,isMac,macRegex} = require('../lib/getmacaddress')
 
 # Test
 joe.describe 'getmac', (describe,it) ->
