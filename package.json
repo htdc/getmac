@@ -1,5 +1,5 @@
 {
-  "name": "getmac",
+  "name": "getmacaddress",
   "version": "1.2.1",
   "description": "Get the mac address of the current machine you are on",
   "homepage": "https://github.com/bevry/getmac",
