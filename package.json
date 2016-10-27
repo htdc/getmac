@@ -58,7 +58,7 @@
   "editions": [
     {
       "description": "Source + CoffeeScript + Require",
-      "entry": "src/lib/getmac.coffee",
+      "entry": "src/lib/getmacaddress.coffee",
       "directory": "src",
       "syntaxes": [
         "coffeescript",
@@ -67,7 +67,7 @@
     },
     {
       "description": "CoffeeScript Compiled JavaScript + ES5 + Require",
-      "entry": "es5/lib/getmac.js",
+      "entry": "es5/lib/getmacaddress.js",
       "directory": "es5",
       "syntaxes": [
         "javascript",
@@ -76,8 +76,8 @@
       ]
     }
   ],
-  "main": "es5/lib/getmac.js",
-  "browser": "es5/lib/getmac.js",
+  "main": "es5/lib/getmacaddress.js",
+  "browser": "es5/lib/getmacaddress.js",
   "bin": {
     "getmac-node": "bin/getmac-node"
   },
